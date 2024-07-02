@@ -1,0 +1,241 @@
+<mjml>
+  <mj-head>
+
+  </mj-head>
+  <mj-body width="640px" background-color="#231f20">
+    <mj-raw>
+      {{content}}{{unsubscribe_url}}
+    </mj-raw>
+
+    <mj-section padding-bottom="0">
+      <mj-column width="100%">
+        <mj-image width="230px" src="https://d2jrel1es8rdcv.cloudfront.net/1718627054283-633507.png"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        Welcome to PARC! �
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        <mj-text color="#ffffff" padding-bottom="0" padding-top="0px">
+          <p>Hello!</p>
+          <p> Welcome to PARC, the automated parking app that rids the world of parking wardens & fines.</p>
+          <p> Woooh! You've been added to the PARC waiting list!</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        <mj-text color="#f3b1a5" align="center" font-size="20px" line-height="28px">
+          This is your only chance to get PARC free forever!
+          Simply help us spread the word.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        <mj-text color="#ffffff">
+          <p>Or Just share YOUR unique referral link:</p>
+          <p>{{user.referral_link}}</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        <mj-text color="#ffffff">
+          You can track your progress here! {{user.referral_status_link}}
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-table width="100%">
+          <tr>
+            <td>
+              <table width="100%" style="background-color:#ffffff;border-radius:20px;">
+                <tr>
+                  <td align="center" style="padding-top:10px;padding-left:5px;padding-right:5px;padding-bottom:18px">
+                    <p style="font-family:arial,helvetica,sans-serif;margin:0px;padding:0px;font-weight:bold;font-size:13px;color:#000000">Top 50 referrers get PARC+ for FREE FOREVER 📲
+                      <br />
+                      1 random person will get a night’s stay & a meal at Gotham Hotel Manchester
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:0px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">Your current position is {{user.list_position}}</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:18px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">The more you share the higher you go!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-bottom:15px;padding-top:10px;">
+                    <div>
+                      <!--[if mso]>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{msg.referral_buttons}}" style="height:40px;v-text-anchor:middle;width:300px;" arcsize="100%" strokecolor="#1e3650" fillcolor="#323232">
+		<w:anchorlock/>
+		<center style="color:#ffffff;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;">{{msg.referral_buttons}}</center>
+	</v:roundrect>
+											<![endif]--><a href="{{msg.referral_buttons}}" style="background-color:#323232;border:1px solid #1e3650;border-radius:50px;color:#ffffff;display:inline-block;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;">{{msg.referral_buttons}}</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:0px;padding-left:5px;padding-right:5px;padding-bottom:10px">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">Just share this unique link to get points and make sure you get into the top 50!
+                      {{user.referral_link}}
+                    </p>
+                  </td>
+                </tr>
+
+              </table>
+              <mj-text>
+                wqdaefaef
+              </mj-text>
+              <table width="100%" style="background-color:#ffffff;border-radius:30px;">
+                <tr>
+                  <td align="center" style="padding-top:0px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">Your new position is {{user.list_position}}
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">You now have {{user.referrals}} active referrals!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:18px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">Keep inviting friends with your referral link. Remember we’re giving the…</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:18px;padding-left:25px;padding-right:25px;padding-bottom:0px;">
+                    <p style="font-family:arial,helvetica,sans-serif;margin:0px;padding:0px;font-weight:bold;font-size:13px;color:#000000">Top 50 referrers get PARC+ for FREE FOREVER 📲
+                      <br>1 random person will get a night’s stay and a meal at Gotham Hotel
+                      Manchester 🌆
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-bottom:15px;padding-top:10px;">
+                    <div>
+                      <!--[if mso]>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{msg.referral_buttons}}" style="height:40px;v-text-anchor:middle;width:300px;" arcsize="100%" strokecolor="#1e3650" fillcolor="#323232">
+		<w:anchorlock/>
+		<center style="color:#ffffff;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;">{{msg.referral_buttons}}</center>
+	</v:roundrect>
+											<![endif]--><a href="{{msg.referral_buttons}}" style="background-color:#323232;border:1px solid #1e3650;border-radius:50px;color:#ffffff;display:inline-block;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:300px;-webkit-text-size-adjust:none;mso-hide:all;">{{msg.referral_buttons}}</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:0px;padding-left:5px;padding-right:5px;padding-bottom:10px">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;text-align:center;font-weight:600">Just in case you forgot, this is YOUR unique link: {{user.referral_link}}
+                    </p>
+                  </td>
+                </tr>
+              </table>
+              <mj-text>
+                afefafaef
+              </mj-text>
+              <table width="100%" style="background-color:#ffffff;border-radius:30px;">
+                <tr>
+                  <td align="center" style="padding-top:8px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;line-height: 17px;text-align:center;font-weight:600">There are now {{user.list_ahead}} ahead of you
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;line-height: 17px;text-align:center;font-weight:600">You now have {{user.referrals}} active referrals!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:18px;padding-left:5px;padding-right:5px;">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;line-height: 17px;text-align:center;font-weight:600">Click below to share your unique referral link.</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td align="center" style="padding-bottom:15px;padding-top:10px;">
+                    <div>
+                      <!--[if mso]>
+	<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{msg.referral_buttons}}" style="height:40px;v-text-anchor:middle;width:300px;" arcsize="100%" strokecolor="#1e3650" fillcolor="#323232">
+		<w:anchorlock/>
+		<center style="color:#ffffff;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;">{{msg.referral_buttons}}</center>
+	</v:roundrect>
+											<![endif]--><a href="{{msg.referral_buttons}}" style="background-color:#323232;border:1px solid #1e3650;border-radius:50px;color:#ffffff;display:inline-block;font-family:arial,helvetica,sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:70%;-webkit-text-size-adjust:none;mso-hide:all;">{{msg.referral_buttons}}</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:0px;padding-left:5px;padding-right:5px;padding-bottom:0px">
+                    <p style="margin:0;font-family:arial,helvetica,sans-serif;color:#000000;font-size:13px;line-height: 17px;text-align:center;font-weight:600">This is YOUR unique link: {{user.referral
+_
+link}}
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding-top:18px;padding-left:25px;padding-right:25px;padding-bottom:5px;">
+                    <p style="font-family:arial,helvetica,sans-serif;margin:0px;padding:0px;font-weight:bold;font-size:13px;line-height: 17px;color:#000000">Top 50 referrers get PARC+ for FREE FOREVER 📲
+                      <br>1 random person will get a night’s stay and a meal at Gotham Hotel
+                      Manchester 🌆
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+        <mj-table width="100%">
+          <tr>
+            <td>
+              <table width="400" style="background-color: #ffff;border-radius: 20px;" align="center">
+                <tr>
+                  <td align="center" style="padding: 20px 20px 15px">
+                    <p style="margin: 0;padding:0;color: #000000;">There are 45 people ahead of you.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding: 0 20px 20px">
+                    <p style="margin: 0;padding:0;color: #000000;"> You have zero active referrals.<br />
+                      Help spread the word!</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="0" padding-top="0px">
+      <mj-column width="100%">
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
